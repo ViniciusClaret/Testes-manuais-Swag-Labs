@@ -9,7 +9,7 @@ Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloq
 
 | ID | Título | Pré-condições | Passos | Resultado esperado | Prioridade | Status |
 |----|--------|---------------|--------|--------------------|:----------:|:------:|
-| LOG-001 | Login com usuário válido | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `standard_user` em Username<br>2. Informar `secret_sauce` em Password<br>3. Clicar em Login | Redireciona para `/inventory.html`, título "Products" exibido com 6 produtos | Alta | ⬜ |
+| LOG-001 | Login com usuário válido | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `standard_user` em Username<br>2. Informar `secret_sauce` em Password<br>3. Clicar em Login | Redireciona para `/inventory.html`, título "Products" exibido com 6 produtos | Alta | ✅ |
 | LOG-002 | Login enviado com a tecla Enter | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Preencher usuário e senha válidos<br>2. Pressionar Enter com o foco no campo Password | Login realizado e usuário levado para a tela de produtos | Média | ⬜ |
 | LOG-003 | Login com usuário bloqueado | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `locked_out_user` e `secret_sauce`<br>2. Clicar em Login | Permanece na tela de login com a mensagem "Epic sadface: Sorry, this user has been locked out." | Alta | ⬜ |
 | LOG-004 | Login com problem_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `problem_user` e `secret_sauce`<br>2. Clicar em Login | Login realizado com sucesso. Obs.: este usuário possui defeitos propositais nas telas seguintes (ver PRD-020 a PRD-022) | Média | ⬜ |
