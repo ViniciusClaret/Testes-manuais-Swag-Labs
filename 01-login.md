@@ -3,7 +3,7 @@
 > Autenticação, mensagens de erro e proteção de rotas
 
 **URL sob teste:** https://www.saucedemo.com/  
-**Total de casos:** 27
+**Total de casos:** 21
 
 Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloqueado
 
