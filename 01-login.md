@@ -4,10 +4,10 @@
 
 **URL sob teste:** https://www.saucedemo.com/  
 **Total de casos:** 21 <br>
-**Versão Google Chrome:** Versão 154.0.8037.93
-**Sistema operacional:** Windowns 11
-**Testes realizados por:** Vinicius Claret
-**Data de execução:** 05/10/2026
+**Versão Google Chrome:** Versão 154.0.8037.93 <br>
+**Sistema operacional:** Windowns 11 <br>
+**Testes realizados por:** Vinicius Claret <br>
+**Data de execução:** 05/10/2026 <br>
 
 Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloqueado
 
