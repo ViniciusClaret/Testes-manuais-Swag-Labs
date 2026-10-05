@@ -5,7 +5,7 @@
 **URL sob teste:** https://www.saucedemo.com/  
 **Total de casos:** 21 <br>
 **Versão Google Chrome:** Versão 154.0.8037.93 <br>
-**Sistema operacional:** Windowns 11 <br>
+**Sistema operacional:** Windows 11 <br>
 **Testes realizados por:** Vinicius Claret <br>
 **Data de execução:** 05/10/2026 <br>
 
@@ -17,7 +17,7 @@ Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloq
 | LOG-02 | Login enviado com a tecla Enter | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Preencher usuário e senha válidos<br>2. Pressionar Enter com o foco no campo Password | Login realizado e usuário levado para a pagina de produtos | Média | ✅ |
 | LOG-03 | Login com usuário bloqueado | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `locked_out_user` e `secret_sauce`<br>2. Clicar em Login | Permanece na tela de login com a mensagem "Epic sadface: Sorry, this user has been locked out." | Alta | ✅ |
 | LOG-04 | Login com problem_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `problem_user` e `secret_sauce`<br>2. Clicar em Login | Login realizado com sucesso, redirecionando para lista de produtos. | Média | ✅ |
-| LOG-05 | Login com performance_glitch_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `performance_glitch_user` e `secret_sauce`<br>2. Clicar em Login e aguardar | Login concluído com sucesso, mesmo com um carregamento demorado para os produtos, sem erros | Média | ✅ |
+| LOG-05 | Login com performance_glitch_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `performance_glitch_user` e `secret_sauce`<br>2. Clicar em Login e aguardar | Login realizado e usuário levado para a pagina de produtos | Média | ✅ |
 | LOG-06 | Login com error_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `error_user` e `secret_sauce`<br>2. Clicar em Login | Login realizado com sucesso e tela de produtos exibida | Baixa | ✅ |
 | LOG-07 | Login com visual_user | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `visual_user` e `secret_sauce`<br>2. Clicar em Login | Login realizado com sucesso, redirecionando para lista de produtos | Baixa | ✅ |
 | LOG-08 | Login com usuário e senha vazios | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Deixar os dois campos vazios<br>2. Clicar em Login | Mensagem "Epic sadface: Username is required" | Alta | ✅ |
@@ -27,10 +27,10 @@ Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloq
 | LOG-12 | Login com usuário inexistente | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `usuario_invalido` e `secret_sauce`<br>2. Clicar em Login | Mesma mensagem de credenciais inválidas, sem revelar qual campo está errado | Alta | ✅ |
 | LOG-13 | Usuário diferencia maiúsculas de minúsculas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `STANDARD_USER` e `secret_sauce`<br>2. Clicar em Login | Login rejeitado com a mensagem de credenciais inválidas | Média | ✅ |
 | LOG-14 | Senha diferencia maiúsculas de minúsculas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `standard_user` e `SECRET_SAUCE`<br>2. Clicar em Login | Login rejeitado com a mensagem de credenciais inválidas | Média | ✅ |
-| LOG-15 | Usuário com espaço no final | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `standard_user ` (com espaço ao final) e `secret_sauce`<br>2. Clicar em Login | Sistema não aceita qualquer tipo de diferença no usuario. | Baixa | ✅ |
+| LOG-15 | Usuário com espaço no final | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Informar `standard_user ` (com espaço ao final) e `secret_sauce`<br>2. Clicar em Login | Login rejeitado com a mensagem "Epic sadface: Username and password do not match any user in this service" | Baixa | ✅ |
 | LOG-16 | Destaque visual dos campos em erro | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Clicar em Login com campos vazios | Campos com borda vermelha e ícone de erro, além do texto da mensagem | Baixa | ✅ |
 | LOG-17 | Senha mascarada | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Digitar `secret_sauce` no campo Password | Caracteres exibidos como pontos, nunca em texto claro | Alta | ✅ |
 | LOG-18 | Acesso direto ao inventário sem login | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Acessar `https://www.saucedemo.com/inventory.html` diretamente | Redireciona ao login com a mensagem "Epic sadface: You can only access '/inventory.html' when you are logged in." | Alta | ✅ |
 | LOG-19 | Sessão mantida após recarregar a página | Logado como `standard_user` (senha `secret_sauce`) na tela de produtos | 1. Pressionar F5 | Usuário continua logado na tela de produtos | Média | ✅ |
 | LOG-20 | Nova mensagem substitui a anterior | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Clicar em Login com campos vazios<br>2. Preencher só o usuário e clicar em Login novamente | Apenas a mensagem mais recente ("Password is required") é exibida, sem juntar com outras notificações | Baixa | ✅ |
-| LOG-21 | Várias tentativas inválidas seguidas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Tentar login inválido 5 vezes seguidas<br>2. Tentar login válido em seguida | A Swag labs nao bloqueia por varias tentativas, mas nao permite login invalido mesmo varias vezes seguida | Baixa | ✅ |
+| LOG-21 | Várias tentativas inválidas seguidas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Tentar login inválido 5 vezes seguidas<br>2. Tentar login válido em seguida | A Swag Labs nao bloqueia por varias tentativas, mas nao permite login invalido mesmo varias vezes seguidas | Baixa | ✅ |
