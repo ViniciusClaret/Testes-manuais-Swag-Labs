@@ -3,7 +3,7 @@
 > Autenticação, mensagens de erro e proteção de rotas
 
 **URL sob teste:** https://www.saucedemo.com/  
-**Total de casos:** 21
+**Total de casos:** 21 <br>
 **Versão Google Chrome:** Versão 154.0.8037.93
 **Sistema operacional:** Windowns 11
 **Testes realizados por:** Vinicius Claret
