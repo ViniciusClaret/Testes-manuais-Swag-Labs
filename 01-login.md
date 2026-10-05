@@ -9,6 +9,12 @@
 **Testes realizados por:** Vinicius Claret <br>
 **Data de execução:** 05/10/2026 <br>
 
+**Critério de prioridade:**
+
+- **Alta:** caminho feliz, segurança e validações obrigatórias
+- **Média:** comportamentos alternativos e usuários especiais
+- **Baixa:** aspectos visuais e casos de borda
+
 Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloqueado
 
 | ID | Título | Pré-condições | Passos | Resultado esperado | Prioridade | Status |
@@ -33,4 +39,4 @@ Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloq
 | LOG-18 | Acesso direto ao inventário sem login | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Acessar `https://www.saucedemo.com/inventory.html` diretamente | Redireciona ao login com a mensagem "Epic sadface: You can only access '/inventory.html' when you are logged in." | Alta | ✅ |
 | LOG-19 | Sessão mantida após recarregar a página | Logado como `standard_user` (senha `secret_sauce`) na tela de produtos | 1. Pressionar F5 | Usuário continua logado na tela de produtos | Média | ✅ |
 | LOG-20 | Nova mensagem substitui a anterior | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Clicar em Login com campos vazios<br>2. Preencher só o usuário e clicar em Login novamente | Apenas a mensagem mais recente ("Password is required") é exibida, sem juntar com outras notificações | Baixa | ✅ |
-| LOG-21 | Várias tentativas inválidas seguidas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Tentar login inválido 5 vezes seguidas<br>2. Tentar login válido em seguida | A Swag Labs nao bloqueia por varias tentativas, mas nao permite login invalido mesmo varias vezes seguidas | Baixa | ✅ |
+| LOG-21 | Várias tentativas inválidas seguidas | Navegador aberto em https://www.saucedemo.com/ com usuário deslogado | 1. Tentar login inválido 5 vezes seguidas<br>2. Tentar login válido em seguida | A Swag Labs nao bloqueia por varias tentativas, mas nao permite login invalido mesmo varias vezes seguidas | Média | ✅ |
