@@ -9,6 +9,12 @@
 **Testes realizados por:** Vinicius Claret <br>
 **Data de execução:** 06/10/2026 <br>
 
+**Critério de prioridade:**
+
+- **Alta:** caminho feliz do carrinho (ver, remover, continuar comprando e seguir ao checkout)<br>
+- **Média:** comportamentos alternativos (detalhe do produto, remover todos os itens, recarregar a página)<br>
+- **Baixa:** casos de borda e persistência fora do fluxo normal (duplicidade de item, logout e novo login)<br>
+
 Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloqueado
 
 | ID | Título | Pré-condições | Passos | Resultado esperado | Prioridade | Status |
