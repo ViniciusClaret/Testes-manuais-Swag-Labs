@@ -4,7 +4,7 @@
 
 **URL sob teste:** https://www.saucedemo.com/  
 **Total de casos:** 13 <br>
-**Versão Google Chrome:** Versão 154.0.8037.93 <br>
+**Versão Google Chrome:** 154.0.8037.93 <br>
 **Sistema operacional:** Windows 11 <br>
 **Testes realizados por:** Vinicius Claret <br>
 **Data de execução:** 06/10/2026 <br>
@@ -18,9 +18,9 @@ Legenda de status: ⬜ Não executado · ✅ Passou · ❌ Falhou · ⚠️ Bloq
 | CAR-003 | Vários itens listados | Logado; Backpack, Bike Light e Onesie adicionados | 1. Abrir o carrinho | Exatamente os 3 itens adicionados, com dados corretos | Alta | ✅ |
 | CAR-004 | Remover item no carrinho | Logado; 2 itens no carrinho | 1. Abrir o carrinho<br>2. Clicar em "Remove" em um item | Item some da lista e o contador diminui em 1 | Alta | ✅ |
 | CAR-005 | Remover todos os itens | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Remover o item | Carrinho vazio, sem contador no ícone | Média | ✅ |
-| CAR-006 | Continue Shopping | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar em "Continue Shopping" | Volta a lista de produtos mantendo o item no carrinho | Alta | ✅ |
-| CAR-007 | Abrir detalhe a partir do carrinho | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar no nome do item | Abre a página de detalhe do produto | Média | ✅ |
-| CAR-008 | Ir para o checkout | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar em "Checkout" | Abre pagina para preencher nome e Postal Code | Alta | ✅ |
+| CAR-006 | Continue Shopping | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar em "Continue Shopping" | Volta à lista de produtos mantendo o item no carrinho | Alta | ✅ |
+| CAR-007 | Abrir detalhe a partir do carrinho | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar no nome do item | Abre a página de detalhe com a descrição do produto | Média | ✅ |
+| CAR-008 | Ir para o checkout | Logado; 1 item no carrinho | 1. Abrir o carrinho<br>2. Clicar em "Checkout" | Abre página para preencher nome e Postal Code | Alta | ✅ |
 | CAR-009 | Checkout com carrinho vazio | Logado como `standard_user`; carrinho vazio | 1. Abrir o carrinho vazio<br>2. Clicar em "Checkout" | O checkout é bloqueado e o sistema exibe mensagem informando que o carrinho está vazio. | Média | ❌ |
 | CAR-010 | Contador consistente entre páginas | Logado; 2 itens adicionados | 1. Navegar por listagem, detalhe, carrinho e checkout | Contador exibe 2 em todas as telas em que aparece | Alta | ✅ |
 | CAR-011 | Carrinho mantido após recarregar | Logado; 2 itens no carrinho | 1. Abrir o carrinho<br>2. Pressionar F5 | Os 2 itens continuam listados | Média | ✅ |
