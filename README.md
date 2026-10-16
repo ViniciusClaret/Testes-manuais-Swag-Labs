@@ -1,6 +1,3 @@
-# Testes-manuais-Swag-Labs
-
-
 # Testes manuais - Swag Labs #
 
 
