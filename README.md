@@ -27,6 +27,32 @@ As pastas `01-login` e `02-carrinho` reúnem a documentação dos casos de teste
 A pasta de `Evidências` reúne os registros que comprovam a execução dos testes nao aprovados, como prints e/ou vídeos dos resultados e dos bugs encontrados.
 
 
-## Resultado da execução ##
-Totalizando 44 testes e apenas 1 reprovado (evidencia )
- (Quantos casos passaram e quantos falharam, e qual falhou)
+## Resumo dos resultados
+
+| Módulo | Casos | ✅ Passou | ❌ Falhou | Data de execução |
+|--------|:-----:|:--------:|:--------:|:----------------:|
+| [Login](./01-login.md) | 21 | 21 | 0 | 05/10/2026 |
+| [Carrinho](./02-carrinho.md) | 13 | 12 | 1 | 06/10/2026 |
+| **Total** | **34** | **33** | **1** | |
+
+
+### Distribuição dos casos por prioridade
+
+| Módulo | Alta | Média | Baixa |
+|--------|:----:|:-----:|:-----:|
+| Login | 9 | 7 | 5 |
+| Carrinho | 7 | 4 | 2 |
+
+## Legenda de status
+
+| Ícone | Significado |
+|:-----:|-------------|
+| ⬜ | Não executado |
+| ✅ | Passou |
+| ❌ | Falhou |
+| ⚠️ | Bloqueado |
+
+
+## Autoria
+
+Testes realizados por **Vinicius Claret**.
