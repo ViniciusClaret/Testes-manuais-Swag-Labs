@@ -1,7 +1,7 @@
 # Testes-manuais-Swag-Labs
 
-# Título e descrição curta #
-**Testes manuais - Swag Labs**<br>
+
+# Testes manuais - Swag Labs #
 
 
 ## Objetivo #
@@ -14,7 +14,19 @@ O maior objetivo do projeto além da experiência prática é criar e executar m
 **Ferramentas utilizadas:** Testes manuais, GitHub (versionar fases)<br>
 
 ## Estrutura do repositório ## 
-(Quais arquivos existem e para que serve cada um) 
+
+As pastas `01-login` e `02-carrinho` reúnem a documentação dos casos de teste manuais, com:
+
+- validações realizadas e resultados obtidos;
+- prováveis bugs encontrados;
+- quantidade de casos de teste;
+- autoria dos testes;
+- ambiente utilizado e versão;
+- critérios adotados.
+
+A pasta de `Evidências` reúne os registros que comprovam a execução dos testes nao aprovados, como prints e/ou vídeos dos resultados e dos bugs encontrados.
+
 
 ## Resultado da execução ##
+Totalizando 44 testes e apenas 1 reprovado (evidencia )
  (Quantos casos passaram e quantos falharam, e qual falhou)
